@@ -13,6 +13,7 @@ namespace CustomizeMigrationHistory.Database
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //configure the migrations history table in the default way
             base.OnModelCreating(modelBuilder);
 
             //rename __MigrationHistory to MigrationHistory and change schema from dbo to admin

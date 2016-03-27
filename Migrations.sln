@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomizeMigrationHistory.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomizeMigrationHistory.Database", "CustomizeMigrationHistory.Database\CustomizeMigrationHistory.Database.csproj", "{8DF0DF37-4B06-4723-9E14-A363A484F7D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromCodeFirst.Database", "FromCodeFirst.Database\FromCodeFirst.Database.csproj", "{61C484A9-625F-4DEB-8C96-7F764E7F926F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromCodeFirst.ConsoleApp", "FromCodeFirst.ConsoleApp\FromCodeFirst.ConsoleApp.csproj", "{864D29FC-3C1B-4B60-9D90-0E2E64D2648D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8DF0DF37-4B06-4723-9E14-A363A484F7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF0DF37-4B06-4723-9E14-A363A484F7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF0DF37-4B06-4723-9E14-A363A484F7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C484A9-625F-4DEB-8C96-7F764E7F926F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C484A9-625F-4DEB-8C96-7F764E7F926F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C484A9-625F-4DEB-8C96-7F764E7F926F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C484A9-625F-4DEB-8C96-7F764E7F926F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864D29FC-3C1B-4B60-9D90-0E2E64D2648D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864D29FC-3C1B-4B60-9D90-0E2E64D2648D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864D29FC-3C1B-4B60-9D90-0E2E64D2648D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864D29FC-3C1B-4B60-9D90-0E2E64D2648D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
