@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExistingDatabase.ConsoleApp", "ExistingDatabase.ConsoleApp\ExistingDatabase.ConsoleApp.csproj", "{DC7E5E7B-7E57-4401-BC31-62E861FB2F99}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContexts.First", "MultipleDbContexts.First\MultipleDbContexts.First.csproj", "{3AA2F185-F37E-4EE4-862B-F1E1F917D583}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbContexts.Second", "MultipleDbContexts.Second\MultipleDbContexts.Second.csproj", "{85A72C85-3E46-4E0A-8ACA-244FDAC5B2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticMigrationsToCodeBased.ConsoleApp", "AutomaticMigrationsToCodeBased.ConsoleApp\AutomaticMigrationsToCodeBased.ConsoleApp.csproj", "{C6772945-5DE6-4A2E-9056-C5E3E9FE72AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomaticMigrationsToCodeBased.Database", "AutomaticMigrationsToCodeBased.Database\AutomaticMigrationsToCodeBased.Database.csproj", "{AE77E10C-1773-4D71-8109-E0C0AAF2D604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{85A72C85-3E46-4E0A-8ACA-244FDAC5B2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85A72C85-3E46-4E0A-8ACA-244FDAC5B2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85A72C85-3E46-4E0A-8ACA-244FDAC5B2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6772945-5DE6-4A2E-9056-C5E3E9FE72AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6772945-5DE6-4A2E-9056-C5E3E9FE72AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6772945-5DE6-4A2E-9056-C5E3E9FE72AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6772945-5DE6-4A2E-9056-C5E3E9FE72AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE77E10C-1773-4D71-8109-E0C0AAF2D604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE77E10C-1773-4D71-8109-E0C0AAF2D604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE77E10C-1773-4D71-8109-E0C0AAF2D604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE77E10C-1773-4D71-8109-E0C0AAF2D604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
