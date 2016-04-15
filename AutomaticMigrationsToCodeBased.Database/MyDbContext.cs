@@ -22,8 +22,8 @@ namespace AutomaticMigrationsToCodeBased.Database
         public string RandomProperty { get; set; }
         public string RandomProperty2 { get; set; }
         public string RandomProperty3 { get; set; }
-        //public string RandomProperty4 { get; set; }
-        //public string RandomProperty5 { get; set; }
-        //public string RandomProperty6 { get; set; }
+        public string RandomProperty4 { get; set; }
+        public string RandomProperty5 { get; set; }
+        public string RandomProperty6 { get; set; }
     }
 }
