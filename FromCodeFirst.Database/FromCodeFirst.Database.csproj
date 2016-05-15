@@ -61,6 +61,10 @@
     <Compile Include="Migrations\201605152105088_ThirdMigration.Designer.cs">
       <DependentUpon>201605152105088_ThirdMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605152105513_ForthMigration.cs" />
+    <Compile Include="Migrations\201605152105513_ForthMigration.Designer.cs">
+      <DependentUpon>201605152105513_ForthMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605152105088_ThirdMigration.resx">
       <DependentUpon>201605152105088_ThirdMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605152105513_ForthMigration.resx">
+      <DependentUpon>201605152105513_ForthMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
