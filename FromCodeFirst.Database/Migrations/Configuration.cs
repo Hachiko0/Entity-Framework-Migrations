@@ -10,7 +10,6 @@ namespace FromCodeFirst.Database.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "FromCodeFirst.Database.MyDbContext";
         }
 
         protected override void Seed(FromCodeFirst.Database.MyDbContext context)
