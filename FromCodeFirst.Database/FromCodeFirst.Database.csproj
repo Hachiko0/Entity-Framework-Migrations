@@ -97,9 +97,9 @@
     <Compile Include="Migrations\201605161208275_SeconDevChange2.Designer.cs">
       <DependentUpon>201605161208275_SeconDevChange2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201605161610136_FirstDevChange3.cs" />
-    <Compile Include="Migrations\201605161610136_FirstDevChange3.Designer.cs">
-      <DependentUpon>201605161610136_FirstDevChange3.cs</DependentUpon>
+    <Compile Include="Migrations\201605161616149_SecondDevChange3.cs" />
+    <Compile Include="Migrations\201605161616149_SecondDevChange3.Designer.cs">
+      <DependentUpon>201605161616149_SecondDevChange3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDbContext.cs" />
@@ -145,8 +145,8 @@
     <EmbeddedResource Include="Migrations\201605161208275_SeconDevChange2.resx">
       <DependentUpon>201605161208275_SeconDevChange2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605161610136_FirstDevChange3.resx">
-      <DependentUpon>201605161610136_FirstDevChange3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201605161616149_SecondDevChange3.resx">
+      <DependentUpon>201605161616149_SecondDevChange3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

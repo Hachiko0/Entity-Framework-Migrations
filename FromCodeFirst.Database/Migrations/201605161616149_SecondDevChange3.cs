@@ -3,7 +3,7 @@ namespace FromCodeFirst.Database.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class FirstDevChange3 : DbMigration
+    public partial class SecondDevChange3 : DbMigration
     {
         public override void Up()
         {
