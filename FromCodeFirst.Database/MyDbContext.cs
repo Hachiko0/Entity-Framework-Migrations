@@ -33,6 +33,7 @@ namespace FromCodeFirst.Database
         public int SecondDevChange1 { get; set; }
         public int FirstDevChange2 { get; set; }
         public int SecondDevChange2 { get; set; }
+        public int SecondDevChange3 { get; set; }
         public virtual ICollection<Role> Roles { get; set; }
     }
 
