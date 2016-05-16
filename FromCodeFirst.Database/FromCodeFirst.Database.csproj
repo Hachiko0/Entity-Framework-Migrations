@@ -81,6 +81,10 @@
     <Compile Include="Migrations\201605161103399_SecondDevChange.Designer.cs">
       <DependentUpon>201605161103399_SecondDevChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605161152309_FirstDevChange1.cs" />
+    <Compile Include="Migrations\201605161152309_FirstDevChange1.Designer.cs">
+      <DependentUpon>201605161152309_FirstDevChange1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605161101128_FirstDevChange.resx">
       <DependentUpon>201605161101128_FirstDevChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605161152309_FirstDevChange1.resx">
+      <DependentUpon>201605161152309_FirstDevChange1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
