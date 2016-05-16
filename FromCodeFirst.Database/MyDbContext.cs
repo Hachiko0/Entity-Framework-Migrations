@@ -27,6 +27,7 @@ namespace FromCodeFirst.Database
         public string RandomProperty3 { get; set; }
         public string RandomProperty4 { get; set; }
         public string RandomProperty5 { get; set; }
+        public int SecondDevChange { get; set; }
         public virtual ICollection<Role> Roles { get; set; }
     }
 
