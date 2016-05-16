@@ -13,7 +13,7 @@ namespace FromCodeFirst.Database.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201605161616149_SecondDevChange3"; }
+            get { return "201605161623034_SecondDevChange3"; }
         }
         
         string IMigrationMetadata.Source
