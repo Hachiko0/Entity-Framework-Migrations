@@ -89,6 +89,10 @@
     <Compile Include="Migrations\201605161154375_SecondDevChange1.Designer.cs">
       <DependentUpon>201605161154375_SecondDevChange1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605161206328_FirstDevChange2.cs" />
+    <Compile Include="Migrations\201605161206328_FirstDevChange2.Designer.cs">
+      <DependentUpon>201605161206328_FirstDevChange2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201605161208275_SeconDevChange2.cs" />
     <Compile Include="Migrations\201605161208275_SeconDevChange2.Designer.cs">
       <DependentUpon>201605161208275_SeconDevChange2.cs</DependentUpon>
@@ -130,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605161154375_SecondDevChange1.resx">
       <DependentUpon>201605161154375_SecondDevChange1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605161206328_FirstDevChange2.resx">
+      <DependentUpon>201605161206328_FirstDevChange2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605161208275_SeconDevChange2.resx">
       <DependentUpon>201605161208275_SeconDevChange2.cs</DependentUpon>
