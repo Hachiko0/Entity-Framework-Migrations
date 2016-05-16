@@ -73,6 +73,10 @@
     <Compile Include="Migrations\201604012257224_Fifth.Designer.cs">
       <DependentUpon>201604012257224_Fifth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605161101128_FirstDevChange.cs" />
+    <Compile Include="Migrations\201605161101128_FirstDevChange.Designer.cs">
+      <DependentUpon>201605161101128_FirstDevChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201605161103399_SecondDevChange.cs" />
     <Compile Include="Migrations\201605161103399_SecondDevChange.Designer.cs">
       <DependentUpon>201605161103399_SecondDevChange.cs</DependentUpon>
@@ -105,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605161103399_SecondDevChange.resx">
       <DependentUpon>201605161103399_SecondDevChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605161101128_FirstDevChange.resx">
+      <DependentUpon>201605161101128_FirstDevChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
